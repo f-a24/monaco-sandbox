@@ -10,7 +10,8 @@
     "format": "prettier-eslint --write src/**/*.ts",
     "precommit": "lint-staged",
     "start": "webpack-dev-server --config webpack.config.js --hot",
-    "test": "jest"
+    "test": "jest",
+    "sw:generate": "workbox generateSW workbox-config.js"
   },
   "devDependencies": {
     "@types/jest": "^23.3.12",
@@ -39,7 +40,8 @@
     "typescript": "^3.2.2",
     "webpack": "^4.28.2",
     "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.14"
+    "webpack-dev-server": "^3.1.14",
+    "workbox-cli": "^3.6.3"
   },
   "lint-staged": {
     "*.ts": [
