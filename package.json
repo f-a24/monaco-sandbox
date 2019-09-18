@@ -11,37 +11,37 @@
     "precommit": "lint-staged",
     "start": "webpack-dev-server --config webpack.config.js --hot",
     "test": "jest",
-    "sw:generate": "workbox generateSW workbox-config.js"
+    "sw:gen": "workbox generateSW workbox-config.js"
   },
   "devDependencies": {
-    "@types/jest": "^23.3.12",
-    "@typescript-eslint/eslint-plugin": "^1.2.0",
-    "@typescript-eslint/parser": "^1.2.0",
-    "autoprefixer": "^9.1.5",
-    "css-loader": "^2.1.0",
-    "eslint": "^5.6.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-config-prettier": "^3.5.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-prettier": "^3.0.1",
-    "husky": "^1.2.1",
-    "jest": "^23.6.0",
-    "lint-staged": "^8.1.0",
+    "@types/jest": "^24.0.18",
+    "@typescript-eslint/eslint-plugin": "^2.3.0",
+    "@typescript-eslint/parser": "^2.3.0",
+    "autoprefixer": "^9.6.1",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.0.5",
+    "jest": "^24.9.0",
+    "lint-staged": "^9.2.5",
     "monaco-editor-webpack-plugin": "^1.7.0",
-    "node-sass": "^4.9.3",
+    "node-sass": "^4.12.0",
     "postcss-loader": "^3.0.0",
-    "prettier": "^1.15.3",
-    "prettier-eslint": "^8.8.2",
-    "prettier-eslint-cli": "^4.7.1",
-    "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1",
-    "ts-jest": "^23.10.5",
-    "ts-loader": "^5.3.2",
-    "typescript": "^3.2.2",
-    "webpack": "^4.28.2",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.14",
-    "workbox-cli": "^3.6.3"
+    "prettier": "^1.18.2",
+    "prettier-eslint": "^9.0.0",
+    "prettier-eslint-cli": "^5.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "ts-jest": "^24.1.0",
+    "ts-loader": "^6.1.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1",
+    "workbox-cli": "^4.3.1"
   },
   "lint-staged": {
     "*.ts": [
@@ -62,6 +62,6 @@
     ]
   },
   "dependencies": {
-    "monaco-editor": "^0.15.6"
+    "monaco-editor": "^0.18.0"
   }
 }
