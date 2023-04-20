@@ -16,6 +16,10 @@ module.exports = {
       {
         test: /\.css$/,
         use: ['style-loader', 'css-loader']
+      },
+      {
+        test: /\.(gif|png|jpg|woff|woff2|eot|ttf|svg)$/,
+        loader: 'url-loader'
       }
     ]
   },
@@ -27,7 +31,9 @@ module.exports = {
     hints: false
   },
   devServer: {
-    contentBase: `${__dirname}/docs`,
+    static: {
+      directory: `${__dirname}/docs`
+    },
     port: 3000,
     hot: true,
     open: true
